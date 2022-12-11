@@ -11,7 +11,7 @@ ________________________________________________________________________________
  + **LinkedIn:**[https://www.linkedin.com/in/merkseniya/]
 
 ### **About me:**
-> I love codу and seeing result of my work!
+> I love codе and seeing result of my work!
 
 ### **Skills:**
  * HTML
