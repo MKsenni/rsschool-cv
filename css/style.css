@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+* {
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: rgb(64, 124, 95);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: rgb(23, 42, 33);
+}
+
+.nav-link:hover::after {
+    content: ' ';
+    position: absolute;
+    display: inline-block;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color:rgb(23, 42, 33);
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    max-width: 30%;
+}
+
+.right {
+    max-width: 70%;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.profile_foto {
+    width: 10%;
+    height: 10%;
+    border-radius: 10%;
+}
+
+.section-name {
+    font-size: 36px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1440px;
+}
+
+.github {
+    background-image: url('/assests/image/icons8-github.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 121px;
+    height: 45px;
+}
+
+.rss {
+    background-image: url('/assests/image/rs_school_js.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 121px;
+    height: 45px;
+}
