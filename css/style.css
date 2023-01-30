@@ -96,7 +96,7 @@ html {
 }
 
 .github {
-    background-image: url('/assests/image/icons8-github.svg');
+    background-image: url('../assests/image/icons8-github.svg');
     background-size: contain;
     background-repeat: no-repeat;
     width: 121px;
@@ -104,7 +104,7 @@ html {
 }
 
 .rss {
-    background-image: url('/assests/image/rs_school_js.svg');
+    background-image: url('../assests/image/rs_school_js.svg');
     background-size: contain;
     background-repeat: no-repeat;
     width: 121px;
