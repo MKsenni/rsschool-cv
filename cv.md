@@ -25,8 +25,8 @@ ________________________________________________________________________________
  + Kurgan State Univercity / Faculty of Economics (2014 year)
 
 ### **Courses:**
- - *RS School* / Java Script - Front-end (in progress)
- - Fundamentals of Frontend Development at *Innopolis* (2022 year)
+ - **RS School** / Java Script - Front-end (in progress)
+ - Fundamentals of Frontend Development at **Innopolis** (2022 year)
 
 ### **Code:**
 ```
