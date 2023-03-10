@@ -7,6 +7,10 @@ html {
     color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+}
+
 .body {
     display: flex;
     flex-direction: column;
@@ -17,8 +21,12 @@ html {
     background-color: rgb(64, 124, 95);
 }
 
+.main {
+    margin-bottom: 40px;
+}
+
 .container {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -61,16 +69,17 @@ html {
 
 .section {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    padding: 0px 40px 0px 40px;
+    border-bottom: 1px solid white;
 }
 
 .left {
-    max-width: 30%;
+    flex-basis: 50%;
 }
 
 .right {
-    max-width: 70%;
+    flex-basis: 50%;
 }
 
 .section-title {
@@ -79,9 +88,10 @@ html {
 }
 
 .profile_foto {
-    width: 10%;
-    height: 10%;
+    width: 40%;
+    height: 40%;
     border-radius: 10%;
+    margin-bottom: 10px;
 }
 
 .section-name {
@@ -93,6 +103,7 @@ html {
     align-items: center;
     justify-content: space-around;
     max-width: 1440px;
+    margin-bottom: 20px;
 }
 
 .github {
